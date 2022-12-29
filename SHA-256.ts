@@ -1,2 +1,2 @@
-import * as crypto from "crypto-js";
-console.log(crypto.SHA256("abc").toString());
+import sha256 from "crypto-js";
+console.log(sha256.SHA256("abc").toString());
