@@ -5,19 +5,32 @@ Requirements:
 <br>
 Install by using Command Prompt:
 
-<div style = "background: grey; padding: 0.25rem 1rem; margin: 0.25rem 0 1rem 0; border-radius: 0.25rem; font-family: monospace">npm install crypto-js</div>
-
+```
+npm install crypto-js
+```
 # USAGE
 ## SHA256
  <li style = "list-style:circle"> Import Syntax
  </li>
- <div style = "background: grey; padding: 0.25rem 1rem; margin: 0.25rem 0 1rem 0; border-radius: 0.25rem; font-family: monospace">import sha256 from 'crypto-js/sha256';</div>
+
+  
+```
+import sha256 from "crypto-js/sha256";
+```
+
  <li style = "list-style:circle"> Usage Syntax
  </li>
-  <div style = "background: grey; padding: 0.25rem 1rem; margin: 0.25rem 0 1rem 0; border-radius: 0.25rem; font-family: monospace">sha256(string)</div>
+
+```
+sha256(string)
+```
+
   The method sha256(string) returns the hash result of the input string. To get the result as a string, just use the toString() method
-    <div style = "background: grey; padding: 0.25rem 1rem; margin: 0.25rem 0 1rem 0; border-radius: 0.25rem; font-family: monospace">sha256(string).toString()</div>
-  
+    
+```
+sha256(string).toString()
+```
+
   For example, if the input string is "abc" then the hashed string result is
   <br>
   "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
